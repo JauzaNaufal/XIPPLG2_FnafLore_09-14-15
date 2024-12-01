@@ -42,70 +42,90 @@
 
 
 
-    <div id="freddy" class="flex flex-col md:flex-row items-center justify-center bg-black text-white h-screen p-8 space-y-8 md:space-y-0 md:space-x-8">
+    <div id="freddy" class="flex flex-col md:flex-row items-center justify-left bg-black text-white h-screen p-8 space-y-8 md:space-y-0 md:space-x-8">
   <div class="flex-shrink-0">
     <img src="assets/images/Freddy.png" alt="Freddy Fazbear" class="w-150 h-auto">
   </div>
 
-  <div class="text-left max-w-lg">
+  <div class="text-left">
     <h1 class="text-4xl mb-4 ">Freddy Fazbear</h1>
     <p class="mb-2"><span class="">Jenis:</span> Animatronik beruang</p>
     <p class="mb-2"><span class="">Penampilan:</span> Beruang cokelat dengan topi hitam kecil, dasi merah, dan sepatu hitam.</p>
-    <h2 class="text-2xl mt-6 mb-2 ">Latar Belakang:</h2>
-    <p class="leading-relaxed text-justify">
+
+    <br>
+    <br>
+    
+    <h2 class="text-2xl mt-6 mb ">Latar Belakang:</h2>
+    <p class="text-justify">
       Bagian dari grup animatronik di Freddy Fazbear's Pizza.<br> Restoran ini terlibat dalam kejadian misterius dan pembunuhan anak-anak,<br>
       yang menyebabkan roh-roh terperangkap dalam animatronik, termasuk Freddy.
     </p>
   </div>
 </div>
 
-<div id="bonnie" class="flex flex-col md:flex-row items-center justify-center bg-black text-white h-screen p-8 space-y-8 md:space-y-0 md:space-x-8">
+<div id="freddy" class="flex flex-col md:flex-row items-center justify-left bg-black text-white h-screen p-8 space-y-8 md:space-y-0 md:space-x-8">
   <div class="flex-shrink-0">
-    <img src="assets/images/bonnie.png" alt="Bonnie the Bunny" class="w-150 h-auto">
+    <img src="assets/images/bonnie.png" alt="Freddy Fazbear" class="w-150 h-auto">
   </div>
 
-  <div class="text-left max-w-lg">
-    <h1 class="text-4xl mb-4 ">Bonnie the Bunny</h1>
-    <p class="mb-2"><span class="">Jenis:</span> Animatronik Kelinci</p>
-    <p class="mb-2"><span class="">Penampilan:</span> Kelinci ungu dengan <br> telinga panjang, dasi merah, dan sepatu hitam.</p>
-    <h2 class="text-2xl mt-6 mb-2 ">Latar Belakang:</h2>
-    <p class="leading-relaxed text-justify">
-    Salah satu animatronik di Freddy Fazbear's Pizza. <br> Bonnie terkenal dalam kejadian misterius <br> dengan roh-roh yang terperangkap, yang <br> menyebabkan anak-anak hilang.
+  <div class="text-left">
+    <h1 class="text-4xl mb-4 ">Freddy Fazbear</h1>
+    <p class="mb-2"><span class="">Jenis:</span> Animatronik beruang</p>
+    <p class="mb-2"><span class="">Penampilan:</span> Beruang cokelat dengan topi hitam kecil, dasi merah, dan sepatu hitam.</p>
+
+    <br>
+    <br>
+    
+    <h2 class="text-2xl mt-6 mb ">Latar Belakang:</h2>
+    <p class="text-justify">
+      Bagian dari grup animatronik di Freddy Fazbear's Pizza.<br> Restoran ini terlibat dalam kejadian misterius dan pembunuhan anak-anak,<br>
+      yang menyebabkan roh-roh terperangkap dalam animatronik, termasuk Freddy.
     </p>
   </div>
 </div>
 
-<div id="Chika" class="flex flex-col md:flex-row items-center justify-center bg-black text-white h-screen p-8 space-y-8 md:space-y-0 md:space-x-8">
+<div id="freddy" class="flex flex-col md:flex-row items-center justify-left bg-black text-white h-screen p-8 space-y-8 md:space-y-0 md:space-x-8">
   <div class="flex-shrink-0">
-    <img src="assets/images/cika.png" alt="Chica The Chicken" class="w-150 h-auto">
+    <img src="assets/images/bonnie.png" alt="Freddy Fazbear" class="w-150 h-auto">
   </div>
 
-  <div class="text-left max-w-lg">
-    <h1 class="text-4xl mb-4 ">Chica The Chicken</h1>
-    <p class="mb-2"><span class="">Jenis:</span> Animatronik Ayam</p>
-    <p class="mb-2"><span class="">Penampilan:</span> Ayam kuning dengan paruh oranye, topi koki putih, dan apron bertuliskan "LET'S EAT!"</p>
-    <h2 class="text-2xl mt-6 mb-2 ">Latar Belakang:</h2>
-    <p class="leading-relaxed text-justify">
-    Chica adalah animatronik di Freddy Fazbear's Pizza <br> yang terlibat dalam pembunuhan anak-anak di restoran. <br> Kejadian misterius ini mengakibatkan roh-roh <br> anak-anak terperangkap dalam animatronik seperti Chica, <br> menjadikannya berbahaya pada malam hari.
+  <div class="text-left">
+    <h1 class="text-4xl mb-4 ">Freddy Fazbear</h1>
+    <p class="mb-2"><span class="">Jenis:</span> Animatronik beruang</p>
+    <p class="mb-2"><span class="">Penampilan:</span> Beruang cokelat dengan topi hitam kecil, dasi merah, dan sepatu hitam.</p>
+
+    <br>
+    <br>
+    
+    <h2 class="text-2xl mt-6 mb ">Latar Belakang:</h2>
+    <p class="text-justify">
+      Bagian dari grup animatronik di Freddy Fazbear's Pizza.<br> Restoran ini terlibat dalam kejadian misterius dan pembunuhan anak-anak,<br>
+      yang menyebabkan roh-roh terperangkap dalam animatronik, termasuk Freddy.
     </p>
   </div>
 </div>
 
-<div id="foxy" class="flex flex-col md:flex-row items-center justify-center bg-black text-white h-screen p-8 space-y-8 md:space-y-0 md:space-x-8">
+<div id="freddy" class="flex flex-col md:flex-row items-center justify-left bg-black text-white h-screen p-8 space-y-8 md:space-y-0 md:space-x-8">
   <div class="flex-shrink-0">
-    <img src="assets/images/Foxy.png" alt="Foxy the Pirate Fox" class="w-150 h-auto">
+    <img src="assets/images/bonnie.png" alt="Freddy Fazbear" class="w-150 h-auto">
   </div>
 
-  <div class="text-left max-w-lg">
-    <h1 class="text-4xl mb-4 ">Foxy the Pirate Fox</h1>
-    <p class="mb-2"><span class="">Jenis:</span> Animatronik Rubah</p>
-    <p class="mb-2"><span class="">Penampilan:</span> Rubah merah dengan telinga robek, mata kuning, <br> dan mengenakan celana pendek hitam <br> serta bandana merah.</p>
-    <h2 class="text-2xl mt-6 mb-2 ">Latar Belakang:</h2>
-    <p class="leading-relaxed text-justify">
-    Foxy adalah animatronik di Freddy Fazbear's Pizza <br> yang rusak dan mengalami kerusakan parah. <br> Terlibat dalam pembunuhan anak-anak di restoran, <br> Foxy menjadi animatronik yang sangat <br> menakutkan dengan perilaku agresif pada malam hari.
+  <div class="text-left">
+    <h1 class="text-4xl mb-4 ">Freddy Fazbear</h1>
+    <p class="mb-2"><span class="">Jenis:</span> Animatronik beruang</p>
+    <p class="mb-2"><span class="">Penampilan:</span> Beruang cokelat dengan topi hitam kecil, dasi merah, dan sepatu hitam.</p>
+
+    <br>
+    <br>
+    
+    <h2 class="text-2xl mt-6 mb ">Latar Belakang:</h2>
+    <p class="text-justify">
+      Bagian dari grup animatronik di Freddy Fazbear's Pizza.<br> Restoran ini terlibat dalam kejadian misterius dan pembunuhan anak-anak,<br>
+      yang menyebabkan roh-roh terperangkap dalam animatronik, termasuk Freddy.
     </p>
   </div>
 </div>
+
 
 
 </body>
