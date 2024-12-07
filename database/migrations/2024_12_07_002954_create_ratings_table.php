@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('ratings', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('character_id')->constrained('characters')->onDelete('cascade');
+            $table->string('name');
+            $table->string('description');
+            $table->integer('rating');
+            $table->longText('content');
             $table->timestamps();
         });
     }

@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('characters', function (Blueprint $table) {
             $table->id();
+            $table->string('image');
+            $table->string('name');
+            $table->string('type');
+            $table->string('appearance');
+            $table->longText('description');
             $table->timestamps();
         });
     }
