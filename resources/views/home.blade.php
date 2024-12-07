@@ -46,7 +46,7 @@
   <!-- Freddy Section -->
   <div id="freddy" class="pt-16 h-screen flex flex-col md:flex-row items-center justify-left bg-black text-white p-8 space-y-8 md:space-y-0 md:space-x-8">
     <div class="flex-shrink-0 md:ml-12"> 
-      <img src="assets/images/Freddy.png" alt="Freddy Fazbear" class="w-150 h-auto">
+      <img src="assets/images/Freddy.png" alt="Freddy Fazbear" class="w-70 h-auto">
     </div>
     <div class="text-left">
       <h1 class="text-4xl font-bold mb-4">Freddy Fazbear</h1>
