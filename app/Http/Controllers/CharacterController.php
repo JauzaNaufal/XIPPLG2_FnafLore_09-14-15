@@ -12,6 +12,5 @@ class CharacterController extends Controller
         $characters = Character::all();
         return view('characters.index', compact('characters'));
     }
-
 }
 
