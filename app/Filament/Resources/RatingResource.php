@@ -12,6 +12,7 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Filament\Forms\Components\Select;
 
 class RatingResource extends Resource
 {
@@ -23,8 +24,29 @@ class RatingResource extends Resource
     {
         return $form
             ->schema([
-                //
-            ]);
+                Forms\Components\Select::make('animatronic_id')
+                ->relationship('animatronic', 'name')
+                ->required(),
+            Forms\Components\TextInput::make('name')
+                ->required()
+                ->maxLength(255),
+                Select::make('rating')
+                ->label('Rating')
+                ->options([
+                    1 => '★',
+                    2 => '★★',
+                    3 => '★★★',
+                    4 => '★★★★',
+                    5 => '★★★★★',
+                ])
+                ->required(),
+            Forms\Components\TextInput::make('description')
+                ->required()
+                ->maxLength(255),
+            Forms\Components\Textarea::make('content')
+                ->required()
+                ->columnSpanFull(),
+        ]);
     }
 
     public static function table(Table $table): Table

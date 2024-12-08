@@ -14,4 +14,9 @@ class Animatronic extends Model
         'appreance',
         'description',
     ];
+    
+    public function ratings()
+    {
+        return $this->belongsTo(Rating::class);
+    }
 }

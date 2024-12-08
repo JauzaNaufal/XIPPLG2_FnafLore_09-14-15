@@ -13,4 +13,9 @@ class Rating extends Model
         'rating',
         'content',
     ];
+
+    public function animatronic()
+    {
+        return $this->belongsTo(Animatronic::class);
+    }
 }
