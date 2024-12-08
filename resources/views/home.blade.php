@@ -43,10 +43,11 @@
     </div>
   </div>
 
+
   <!-- Freddy Section -->
   <div id="freddy" class="pt-16 h-screen flex flex-col md:flex-row items-center justify-left bg-black text-white p-8 space-y-8 md:space-y-0 md:space-x-8">
     <div class="flex-shrink-0 md:ml-12"> 
-      <img src="assets/images/Freddy.png" alt="Freddy Fazbear" class="w-150 h-auto">
+      <img src="assets/images/Freddy.png" alt="Freddy Fazbear" class="w-70 h-auto">
     </div>
     <div class="text-left">
       <h1 class="text-4xl font-bold mb-4">Freddy Fazbear</h1>
@@ -56,8 +57,19 @@
       <p class="text-justify">
         Bagian dari grup animatronik di Freddy Fazbear's Pizza. Restoran ini terlibat dalam kejadian misterius dan pembunuhan anak-anak, yang menyebabkan roh-roh terperangkap dalam animatronik, termasuk Freddy.
       </p>
+      <div id="rating-freddy" class="mt-6">
+        <h2 class="text-2xl font-bold mb-2">Rating :</h2>
+        <div class="flex space-x-2">
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-freddy', 1)">★</span>
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-freddy', 2)">★</span>
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-freddy', 3)">★</span>
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-freddy', 4)">★</span>
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-freddy', 5)">★</span>
+        </div>
+      </div>
     </div>
   </div>
+
 
   <!-- Bonnie Section -->
   <div id="bonnie" class="pt-16 flex flex-col md:flex-row-reverse items-center bg-black text-white px-16 md:px-24 py-8 rounded-lg shadow-lg space-y-8 md:space-y-0 md:space-x-8">
@@ -72,40 +84,84 @@
       <p class="text-justify">
         Salah satu animatronik di Freddy Fazbear's Pizza. Bonnie terkenal dalam kejadian misterius dengan roh-roh yang terperangkap, yang menyebabkan anak-anak hilang.
       </p>
+      <div id="rating-bonnie" class="mt-6">
+        <h2 class="text-2xl font-bold mb-2">Rating :</h2>
+        <div class="flex space-x-2">
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-bonnie', 1)">★</span>
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-bonnie', 2)">★</span>
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-bonnie', 3)">★</span>
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-bonnie', 4)">★</span>
+          <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-bonnie', 5)">★</span>
+        </div>
+      </div>
     </div>
   </div>
+
 
   <!-- Chica Section -->
-  <div id="chica" class="pt-16 h-screen flex flex-col md:flex-row items-center justify-left bg-black text-white p-8 space-y-8 md:space-y-0 md:space-x-8">
-    <div class="flex-shrink-0 md:ml-12"> 
-      <img src="assets/images/cika.png" alt="Chica The Chicken" class="w-150 h-auto">
-    </div>
-    <div class="text-left">
-      <h1 class="text-4xl font-bold mb-4">Chica The Chicken</h1>
-      <p class="mb-2"><span class="font-semibold">Jenis :</span> Animatronik Ayam</p>
-      <p class="mb-2"><span class="font-semibold">Penampilan :</span>Ayam kuning dengan paruh oranye, topi koki putih, dan apron bertuliskan "LET'S EAT!".</p>
-      <h2 class="text-2xl font-bold mt-6 mb-2">Latar Belakang :</h2>
-      <p class="text-justify">
-        Chica adalah animatronik di Freddy Fazbear's Pizza yang terlibat dalam pembunuhan anak-anak di restoran. Kejadian misterius ini mengakibatkan roh-roh anak-anak terperangkap dalam animatronik seperti Chica, menjadikannya berbahaya pada malam hari.
-      </p>
+<div id="chica" class="pt-16 h-screen flex flex-col md:flex-row items-center justify-left bg-black text-white p-8 space-y-8 md:space-y-0 md:space-x-8">
+  <div class="flex-shrink-0 md:ml-12"> 
+    <img src="assets/images/cika.png" alt="Chica the Chicken" class="w-70 h-auto">
+  </div>
+  <div class="text-left">
+    <h1 class="text-4xl font-bold mb-4">Chica the Chicken</h1>
+    <p class="mb-2"><span class="font-semibold">Jenis :</span> Animatronik Ayam</p>
+    <p class="mb-2"><span class="font-semibold">Penampilan :</span> Ayam kuning dengan apron bertuliskan "Let's Eat!"</p>
+    <h2 class="text-2xl font-bold mt-6 mb-2">Latar Belakang :</h2>
+    <p class="text-justify">
+      Animatronik ayam yang menjadi bagian dari grup di Freddy Fazbear's Pizza. Seperti yang lainnya, terperangkap dalam roh-roh anak-anak yang hilang.
+    </p>
+    <div id="rating-chica" class="mt-6">
+      <h2 class="text-2xl font-bold mb-2">Rating :</h2>
+      <div class="flex space-x-2">
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-chica', 1)">★</span>
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-chica', 2)">★</span>
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-chica', 3)">★</span>
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-chica', 4)">★</span>
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-chica', 5)">★</span>
+      </div>
     </div>
   </div>
+</div>
 
-  <!-- Foxy Section -->
-  <div id="foxy" class="pt-16 flex flex-col md:flex-row-reverse items-center bg-black text-white px-16 md:px-24 py-8 rounded-lg shadow-lg space-y-8 md:space-y-0 md:space-x-8">
-    <div class="flex-shrink-0 md:mr-12">
-      <img src="assets/images/Foxy.png" alt="Foxy the Pirate Fox" class="w-150 h-auto">
-    </div>
-    <div class="text-left">
-      <h1 class="text-4xl font-bold mb-4">Foxy the Pirate Fox</h1>
-      <p class="mb-2"><span class="font-semibold">Jenis :</span> Animatronik Rubah</p>
-      <p class="mb-2"><span class="font-semibold">Penampilan :</span> Rubah merah dengan telinga robek, mata kuning, dan mengenakan celana pendek hitam serta bandana merah.</p>
-      <h2 class="text-2xl font-bold mt-6 mb-2">Latar Belakang :</h2>
-      <p class="text-justify">
-        Foxy adalah animatronik di Freddy Fazbear's Pizza yang rusak dan mengalami kerusakan parah. Terlibat dalam pembunuhan anak-anak di restoran, Foxy menjadi animatronik yang sangat menakutkan dengan perilaku agresif di malam hari.
-      </p>
+
+<!-- Foxy Section -->
+<div id="foxy" class="pt-16 h-screen flex flex-col md:flex-row-reverse items-center justify-left bg-black text-white p-8 space-y-8 md:space-y-0 md:space-x-8">
+  <div class="flex-shrink-0 md:ml-12"> 
+    <img src="assets/images/foxy.png" alt="Foxy the Pirate Fox" class="w-70 h-auto">
+  </div>
+  <div class="text-left">
+    <h1 class="text-4xl font-bold mb-4">Foxy the Pirate Fox</h1>
+    <p class="mb-2"><span class="font-semibold">Jenis :</span> Animatronik Rubah</p>
+    <p class="mb-2"><span class="font-semibold">Penampilan :</span> Rubah merah dengan topi bajak laut dan mata yang tajam.</p>
+    <h2 class="text-2xl font-bold mt-6 mb-2">Latar Belakang :</h2>
+    <p class="text-justify">
+      Dikenal karena penampilannya yang mengerikan dan cenderung lebih agresif dibandingkan animatronik lainnya.
+    </p>
+    <div id="rating-foxy" class="mt-6">
+      <h2 class="text-2xl font-bold mb-2">Rating :</h2>
+      <div class="flex space-x-2">
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-foxy', 1)">★</span>
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-foxy', 2)">★</span>
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-foxy', 3)">★</span>
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-foxy', 4)">★</span>
+        <span class="star cursor-pointer text-gray-400 text-4xl" onclick="setRating('rating-foxy', 5)">★</span>
+      </div>
     </div>
   </div>
+</div>
 
-</body>
-</html>
+  <script>
+    function setRating(sectionId, rating) {
+  const stars = document.querySelectorAll(`#${sectionId} .star`);
+
+  stars.forEach((star, index) => {
+    if (index < rating) {
+      star.classList.add("text-yellow-500");
+    } else {
+      star.classList.remove("text-yellow-500");
+    }
+  });
+}
+
+  </script>
