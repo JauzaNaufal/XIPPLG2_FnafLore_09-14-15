@@ -11,30 +11,32 @@
 
     <div class="absolute inset-0 backdrop-blur-md"></div>
     
-
     <div class="bg-white bg-opacity-80 p-6 rounded-lg shadow-lg w-72 relative z-10">
 
-        <form>
+        <form id="LoginForm">
 
             <div class="mb-3">
                 <label class="block text-red-500 font-semibold mb-1" for="username">Username :</label>
                 <input class="block w-full px-3 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500" 
                        type="text" id="username" placeholder="Username" required>
             </div>
-            
 
             <div class="mb-4">
                 <label class="block text-red-500 font-semibold mb-1" for="password">Password :</label>
                 <input class="block w-full px-3 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500" 
                        type="password" id="password" placeholder="Password" required>
             </div>
-            
 
             <div class="text-center">
                 <button class="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600 transition duration-200" 
                         type="submit">LOGIN</button>
             </div>
         </form>
+        <script>
+            const homeUrl = "{{ route('home') }}";  // Pastikan ini ada di atas script.js
+        </script>
+
+        <script src="assets/js/script.js"></script>
     </div>
 </body>
 </html>

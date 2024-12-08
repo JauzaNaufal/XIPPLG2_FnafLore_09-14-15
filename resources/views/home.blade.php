@@ -47,10 +47,10 @@
   <!-- Freddy Section -->
   <div id="freddy" class="pt-16 h-screen flex flex-col md:flex-row items-center justify-left bg-black text-white p-8 space-y-8 md:space-y-0 md:space-x-8">
     <div class="flex-shrink-0 md:ml-12"> 
-      <img src="assets/images/Freddy.png" alt="Freddy Fazbear" class="w-70 h-auto">
+    <img id="FreddyImages" src="assets/images/Freddy.png" alt="Freddy Fazbear" class="w-70 h-auto">
     </div>
     <div class="text-left">
-      <h1 class="text-4xl font-bold mb-4">Freddy Fazbear</h1>
+      <h1 class="text-4xl font-bold mb-4 blink">Freddy Fazbear</h1>
       <p class="mb-2"><span class="font-semibold">Jenis :</span> Animatronik Beruang</p>
       <p class="mb-2"><span class="font-semibold">Penampilan :</span> Beruang cokelat dengan topi hitam kecil, dasi merah, dan sepatu hitam.</p>
       <h2 class="text-2xl font-bold mt-6 mb-2">Latar Belakang :</h2>
@@ -74,10 +74,10 @@
   <!-- Bonnie Section -->
   <div id="bonnie" class="pt-16 flex flex-col md:flex-row-reverse items-center bg-black text-white px-16 md:px-24 py-8 rounded-lg shadow-lg space-y-8 md:space-y-0 md:space-x-8">
     <div class="flex-shrink-0 md:mr-12"> 
-      <img src="assets/images/bonnie.png" alt="Bonnie the Bunny" class="w-150 h-auto">
+    <img id="BonnieImages" src="assets/images/bonnie.png" alt="Bonnie the Bunny" class="w-70 h-auto">
     </div>
     <div class="text-left">
-      <h1 class="text-4xl font-bold mb-4">Bonnie the Bunny</h1>
+      <h1 class="text-4xl font-bold mb-4 blink">Bonnie the Bunny</h1>
       <p class="mb-2"><span class="font-semibold">Jenis :</span> Animatronik Kelinci</p>
       <p class="mb-2"><span class="font-semibold">Penampilan :</span> Kelinci ungu dengan telinga panjang, dasi merah.</p>
       <h2 class="text-2xl font-bold mt-6 mb-2">Latar Belakang :</h2>
@@ -101,10 +101,10 @@
   <!-- Chica Section -->
 <div id="chica" class="pt-16 h-screen flex flex-col md:flex-row items-center justify-left bg-black text-white p-8 space-y-8 md:space-y-0 md:space-x-8">
   <div class="flex-shrink-0 md:ml-12"> 
-    <img src="assets/images/cika.png" alt="Chica the Chicken" class="w-70 h-auto">
+  <img id="ChicaImages" src="assets/images/cika.png" alt="Chica the Chicken" class="w-70 h-auto">
   </div>
   <div class="text-left">
-    <h1 class="text-4xl font-bold mb-4">Chica the Chicken</h1>
+    <h1 class="text-4xl font-bold mb-4 blink">Chica the Chicken</h1>
     <p class="mb-2"><span class="font-semibold">Jenis :</span> Animatronik Ayam</p>
     <p class="mb-2"><span class="font-semibold">Penampilan :</span> Ayam kuning dengan apron bertuliskan "Let's Eat!"</p>
     <h2 class="text-2xl font-bold mt-6 mb-2">Latar Belakang :</h2>
@@ -128,10 +128,10 @@
 <!-- Foxy Section -->
 <div id="foxy" class="pt-16 h-screen flex flex-col md:flex-row-reverse items-center justify-left bg-black text-white p-8 space-y-8 md:space-y-0 md:space-x-8">
   <div class="flex-shrink-0 md:ml-12"> 
-    <img src="assets/images/foxy.png" alt="Foxy the Pirate Fox" class="w-70 h-auto">
+  <img id="FoxyImages" src="assets/images/Foxy.png" alt="Foxy the Pirate Fox" class="w-70 h-auto">
   </div>
   <div class="text-left">
-    <h1 class="text-4xl font-bold mb-4">Foxy the Pirate Fox</h1>
+    <h1 class="text-4xl font-bold mb-4 blink">Foxy the Pirate Fox</h1>
     <p class="mb-2"><span class="font-semibold">Jenis :</span> Animatronik Rubah</p>
     <p class="mb-2"><span class="font-semibold">Penampilan :</span> Rubah merah dengan topi bajak laut dan mata yang tajam.</p>
     <h2 class="text-2xl font-bold mt-6 mb-2">Latar Belakang :</h2>
@@ -151,6 +151,12 @@
   </div>
 </div>
 
+<footer class="bg-black text-white text-center py-1 mt-2">
+  <p class="text-lg font-custom">© 2024 Freddy Fazbear's Pizza. All Rights Reserved.</p>
+  <p class="text-md font-custom blink">The animatronics will find you...</p>
+</footer>
+
+  <script src="assets/js/script.js"></script>
   <script>
     function setRating(sectionId, rating) {
   const stars = document.querySelectorAll(`#${sectionId} .star`);

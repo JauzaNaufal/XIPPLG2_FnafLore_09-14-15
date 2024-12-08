@@ -12,8 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 'FreddyImages',
             defaultSrc: '/assets/images/Freddy.png',
-            hoverSrc: '/assets/images/freddy_creppy.png'
+            hoverSrc: '/assets/images/freddy_creppy.png',
+            defaultWidth: '210px',  
+            hoverWidth: '300px',    
+            defaultHeight: 'auto',  
+            hoverHeight: 'auto'    
         },
+
         {
             id: 'BonnieImages',
             defaultSrc: '/assets/images/Bonnie.png',
@@ -31,13 +36,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     ];
 
-    images.forEach(image => {
+    images.forEach(function(image) {
         const imgElement = document.getElementById(image.id);
+        
         if (imgElement) {
             imgElement.addEventListener('mouseover', function() {
                 imgElement.src = image.hoverSrc;
             });
-
+            
             imgElement.addEventListener('mouseout', function() {
                 imgElement.src = image.defaultSrc;
             });
