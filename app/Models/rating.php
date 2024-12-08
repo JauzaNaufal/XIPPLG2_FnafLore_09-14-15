@@ -4,19 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class rating extends Model
+class Rating extends Model
 {
     protected $fillable = [
-        'character_id',
+        'animatroni_id',
         'name',
         'description',
         'rating',
         'content',
     ];
-
-
-    public function character()
-    {
-        return $this->hasMany(Character::class);
-    }
 }

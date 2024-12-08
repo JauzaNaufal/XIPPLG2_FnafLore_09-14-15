@@ -11,15 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('characters', function (Blueprint $table) {
+        Schema::create('ratings', function (Blueprint $table) {
             $table->id();
-            $table->string('image');
+            $table->foreignId('animatronic_id');
             $table->string('name');
-            $table->string('type');
-            $table->string('appearance');
-            $table->longText('description');
+            $table->string('description');
+            $table->integer('rating');
+            $table->string('content');
             $table->timestamps();
         });
+
     }
 
     /**
@@ -27,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('characters');
+        Schema::dropIfExists('ratings');
     }
 };
