@@ -15,9 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('animatronic_id');
             $table->string('name');
-            $table->string('description');
             $table->integer('rating');
-            $table->string('content');
             $table->timestamps();
         });
 

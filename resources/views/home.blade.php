@@ -136,7 +136,7 @@
     <p class="mb-2"><span class="font-semibold">Penampilan :</span> Rubah merah dengan topi bajak laut dan mata yang tajam.</p>
     <h2 class="text-2xl font-bold mt-6 mb-2">Latar Belakang :</h2>
     <p class="text-justify">
-      Dikenal karena penampilannya yang mengerikan dan cenderung lebih agresif dibandingkan animatronik lainnya.
+        
     </p>
     <div id="rating-foxy" class="mt-6">
       <h2 class="text-2xl font-bold mb-2">Rating :</h2>

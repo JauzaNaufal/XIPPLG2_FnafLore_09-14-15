@@ -18,7 +18,7 @@ class RatingResource extends Resource
 {
     protected static ?string $model = Rating::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-star';
 
     public static function form(Form $form): Form
     {
@@ -40,12 +40,7 @@ class RatingResource extends Resource
                     5 => '★★★★★',
                 ])
                 ->required(),
-            Forms\Components\TextInput::make('description')
-                ->required()
-                ->maxLength(255),
-            Forms\Components\Textarea::make('content')
-                ->required()
-                ->columnSpanFull(),
+
         ]);
     }
 
@@ -53,7 +48,12 @@ class RatingResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('animatronic.name')
+                ->label('Animatronic'),
+                Tables\Columns\TextColumn::make('name')
+                ->label('Name'),
+                Tables\Columns\TextColumn::make('rating')
+                ->label('Rating'),
             ])
             ->filters([
                 //

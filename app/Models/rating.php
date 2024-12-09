@@ -7,15 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 class Rating extends Model
 {
     protected $fillable = [
-        'animatroni_id',
+        'animatronic_id',
         'name',
-        'description',
         'rating',
-        'content',
     ];
 
     public function animatronic()
-    {
-        return $this->belongsTo(Animatronic::class);
-    }
+{
+    return $this->belongsTo(Animatronic::class);
+}
 }

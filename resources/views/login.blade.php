@@ -32,11 +32,14 @@
                         type="submit">LOGIN</button>
             </div>
         </form>
+
+        
         <script>
-            const homeUrl = "{{ route('home') }}";  // Pastikan ini ada di atas script.js
-        </script>
+    const homeUrl = "{{ url('/home') }}";
+</script>
 
         <script src="assets/js/script.js"></script>
+
     </div>
 </body>
 </html>

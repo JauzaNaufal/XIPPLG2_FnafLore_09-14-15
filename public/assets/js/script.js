@@ -51,24 +51,24 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-document.getElementById('LoginForm').addEventListener('submit', function(event){
-    event.preventDefault();
+document.getElementById('LoginForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
     console.log('Form Submitted');
 
-    const correctUsername = 'WilliamAfton';
-    const correctPassword = '12345';
+    const correctUsername = 'admin@fnaf.com';
+    const correctPassword = '123';
 
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
+    const username = document.getElementById('username').value.trim();
+    const password = document.getElementById('password').value.trim();
 
     console.log('Username:', username);
-    console.log('Password:', password);
+    console.log('Password:', password); 
+    console.log('Home URL:', homeUrl);   
 
-    if(username === correctUsername && password === correctPassword){
+    if (username === correctUsername && password === correctPassword) {
         alert('Login Berhasil');
-        window.location.href = 'index.html';
-    }else{
+        window.location.replace(homeUrl);   
+    } else {
         alert('Login Gagal');
-    }
+    }    
 });
-
